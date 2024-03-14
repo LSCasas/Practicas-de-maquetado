@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  #porcentajes  {
+    width: 100%;
+    max-width: 90%;
+    border: 1px solid bisque;
+    height: 200px;
+    padding: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    #porcentajes {  
+        background: rgb(62, 33, 157);
+     }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    #porcentajes {  
+        background: rgb(18, 125, 34);
+     }
+  }
+
+  @media screen and (min-width: 1280px) {
+    #porcentajes {  
+        background: rgb(201, 45, 107);
+     }
+  }
+
+  @media screen and (min-width: 1536px) {
+    #porcentajes {  
+        background: rgb(210, 157, 22);
+     }
+  }
+
+  @media screen and (min-width: 1920px) {
+    #porcentajes {  
+        background: rgb(24, 212, 177);
+     }
+  }
